@@ -1,4 +1,30 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "homepage": "https://github.com/DenisseSantana/CDMX010-md-links#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "colors": "^1.4.0",
+    "fetch": "^1.1.0",
+    "markdown-link-extractor": "^1.2.7",
+    "marked": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "jest",
+    "mdlinks": "node index.js"
+  },
+  "keywords": [
+    "md-links",
+    "mark-down"
+  ],
+  "author": "Denisse Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisseSantana/CDMX010-md-links/issues"
+  },
+  "bin": {
+    "md-links": "process.js"
+  }
 }
